@@ -29,6 +29,7 @@ Can push
 ## Extras
 
 ### Bash Helpers
+Run `source bashhelpers.sh` to get some useful command line tools:
 `dcb` == `docker-compose build` - builds your docker containers
 `dcd` == `docker-compose down` - turns off containers and network
 `dcrr` == `docker-compose run remove server` - for running a command within the server (e.g. `dcrr bash` or `dcrr npm start`)
